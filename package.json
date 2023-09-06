@@ -1,0 +1,22 @@
+{
+  "name": "pod-request-access-landing-page",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">   <img src=\"https://www.frontendmentor.io/static/images/logo-mobile.svg\" alt=\"frontendmentor\" width=\"80\">   <br />   <h2 align=\"center\">    <a href=\"https://www.frontendmentor.io/challenges/pod-request-access-landing-page-eyTmdkLSG\"  target=\"_blank\">         Pod request access landing page - Frontend Mentor Challenge     </a>   </h2> </div> <br />",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "prebuild": "rimraf dist",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "rimraf": "^5.0.1",
+    "sass": "^1.66.1",
+    "vite": "^4.4.9"
+  }
+}
