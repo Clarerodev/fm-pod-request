@@ -1,3 +1,37 @@
+@use '@fem-sample/tokens/dist/scss/tokens' as *;
+
 .header {
     
+    &__picture {
+        z-index: -1;
+        opacity: 0.1;
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        @media screen and (min-width: $fem-breakpoint-sm) { 
+            opacity: 1;
+        }
+
+        @media screen and (min-width: $fem-breakpoint-lg) {
+            margin-top: ($fem-space-offset-300 + $fem-space-offset-400 + $fem-space-offset-500);
+            top: auto;
+        }
+    }
+
+    & {
+        margin-top: ($fem-space-offset-700 * 2);
+        margin-bottom: ($fem-space-offset-600 * 2) + ($fem-space-offset-400 + $fem-space-offset-100);
+
+        @media screen and (min-width: $fem-breakpoint-sm) {
+            text-align: left;
+            margin-top: ($fem-space-offset-700 + 1) + $fem-space-offset-200;
+            margin-left: $fem-space-offset-700 + ($fem-space-offset-100 - $fem-space-offset-400);
+        }
+
+        @media screen and (min-width: $fem-breakpoint-lg) {
+            margin-top: ($fem-space-offset-700 * 3) + ($fem-space-offset-200 + $fem-space-offset-300) ;
+            margin-left: ($fem-space-offset-700 * 5) + ($fem-space-offset-100 + $fem-space-offset-200);
+        }
+    }
 }
