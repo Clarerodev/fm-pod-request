@@ -1,3 +1,9 @@
 @use '@fem-sample/tokens/dist/css/_colors.css';
-@use 'reset';
-@use 'global';
+@use 'base/reset';
+@use 'base/global';
+@use 'base/typography';
+@use 'components/button';
+@use 'components/input';
+@use 'components/sponsor';
+@use 'layout/header';
+@use 'layout/footer';
