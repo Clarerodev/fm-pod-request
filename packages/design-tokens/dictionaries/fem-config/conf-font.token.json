@@ -1,0 +1,63 @@
+{
+    "femConfig": {
+        "font": {
+            "family": {
+                "sans": {
+                   "chivo": {
+                        "value": "'Chivo', sans-serif"
+                    }
+                }
+            },
+            "size": {
+                "100": {
+                    "value": "12"
+                },
+                "200": {
+                    "value": "14"
+                },
+                "300": {
+                    "value": "15"
+                },
+                "400": {
+                    "value": "18"
+                },
+                "500": {
+                    "value": "27"
+                },
+                "600": {
+                    "value": "48"
+                },
+                "700": {
+                    "value": "52"
+                }
+            },
+            "weight": {
+                "normal": {
+                    "value": "400"
+                }
+            },
+            "style": {
+                "normal": {
+                    "value": "normal"
+                }
+            },
+            "lineHeight": {
+                "100": {
+                    "value": "25"
+                },
+                "200": {
+                    "value": "28"
+                },
+                "300": {
+                    "value": "38"
+                },
+                "400": {
+                    "value": "56"
+                },
+                "500": {
+                    "value": "62"
+                }
+            }
+        }
+    }
+} 
