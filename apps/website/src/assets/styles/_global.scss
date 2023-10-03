@@ -1,0 +1,6 @@
+@use '@fem-sample/tokens/dist/scss/mixins' as *;
+@use '@fem-sample/tokens/dist/scss/tokens' as *;
+
+body {
+    background-color: var(--fem-color-background-page-primary);
+}
