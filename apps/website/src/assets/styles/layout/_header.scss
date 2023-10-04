@@ -1,4 +1,6 @@
 @use '@fem-sample/tokens/dist/scss/tokens' as *;
+@use '../utils/mixins';
+
 
 .header {
     &__picture {
@@ -18,6 +20,16 @@
         }
     }
 
+    &__picture::after {
+        @extend %mix-bckg-dots;
+        display: none;
+        
+        @media screen and (min-width: ($fem-breakpoint-md)) {
+            display: block;
+            right: 0;
+            bottom: $fem-space-offset-500 * 3 * -1;
+        }
+    }
     & {
         margin-top: ($fem-space-offset-700 * 2);
         margin-bottom: ($fem-space-offset-600 * 2) + ($fem-space-offset-400 + $fem-space-offset-100);

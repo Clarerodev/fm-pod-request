@@ -31,6 +31,7 @@
         color: var(--fem-color-text-body-primary);
 
         @media screen and (min-width: $fem-breakpoint-sm) {
+            margin-bottom: ($fem-space-offset-400 + $fem-space-offset-700);
             font-size: $fem-font-body-400-size;
             line-height: $fem-font-body-400-height;
             max-width: 71.08%;
@@ -100,10 +101,27 @@
             }
         }
     }
+    &__owner {
+        @extend %fem-font-body-300;
+        opacity: 0.2;
+        color: var(--fem-color-text-body-primary);
+        position: relative;
+        margin-top: $fem-space-offset-500;
+
+        @media screen and (min-width: ($fem-breakpoint-sm)) {
+            position: absolute;
+            top: 0;
+            right: $fem-space-offset-500;
+            margin-top: 0;
+            padding-top: $fem-space-offset-500;
+        }
+    }
+
     & {
+        position: relative;
         padding: 0 ($fem-space-offset-400 * 3);
         color: var(--fem-color-text-body-primary);
-
+        margin-bottom: $fem-space-offset-500;
         @media screen and (min-width: $fem-breakpoint-sm) {
             background-color: var(--fem-color-background-page-primary);
             text-align: left;

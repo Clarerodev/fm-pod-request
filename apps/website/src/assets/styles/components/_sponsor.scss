@@ -6,14 +6,15 @@
         justify-content: center;
         flex-wrap: wrap;
         gap: $fem-space-offset-500;
-
+        opacity: 0.5;
+        
         @media screen and (min-width: ($fem-breakpoint-xs)) {
             justify-content: space-around;
         }
 
         @media screen and (min-width: ($fem-breakpoint-sm)) {
             justify-content: left;
-            gap: $fem-space-offset-600;
+            gap: $fem-space-offset-700;
         }
 
         @media screen and (min-width: ($fem-breakpoint-lg)) {
