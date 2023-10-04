@@ -1,0 +1,12 @@
+@use '@fem-sample/tokens/dist/scss/tokens' as *;
+@use '@fem-sample/tokens/dist/scss/mixins' as *;
+
+.input__email {
+    @extend %fem-font-body-200-normal;
+    background-color: var(--fem-color-background-input-primary);
+    padding-top: $fem-space-offset-400 + $fem-space-offset-100;
+    padding-bottom: $fem-space-offset-400 + $fem-space-offset-100;
+    padding-left: $fem-space-offset-700;
+    border-radius: $fem-size-border-100;
+    color: var(--fem-color-text-placeholder-primary);
+}

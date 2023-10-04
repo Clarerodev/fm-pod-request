@@ -9,6 +9,9 @@
             "button": {
                 "primary": {
                     "value": "{femConfig.color.primary.green.light}"
+                },
+                "secondary": {
+                    "value": "{femConfig.color.primary.green.lighter}"
                 }
             },
             "input": {

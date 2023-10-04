@@ -5,7 +5,7 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 1rem;
+        gap: $fem-space-offset-500;
 
         @media screen and (min-width: ($fem-breakpoint-xs)) {
             justify-content: space-around;
@@ -13,7 +13,11 @@
 
         @media screen and (min-width: ($fem-breakpoint-sm)) {
             justify-content: left;
-            gap: $fem-space-offset-500;
+            gap: $fem-space-offset-600;
+        }
+
+        @media screen and (min-width: ($fem-breakpoint-lg)) {
+            gap: $fem-space-offset-700;
         }
     }
     &__list--item {

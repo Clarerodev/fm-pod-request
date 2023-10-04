@@ -2,8 +2,7 @@ import { throwSizeError } from './_utils.mjs';
 
 const BASE_FONT_SIZE = 16;
 const CONFIG_CATEGORY = 'femConfig';
-const SIZE_CATEGORY = 'size';
-const ITEMS = ['lineHeight', 'height', 'size', 'space'];
+const ITEMS = ['lineHeight', 'height', 'size', 'space', 'border'];
 const UNIT = 'rem';
 
 export default {
