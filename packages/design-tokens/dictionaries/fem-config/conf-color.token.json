@@ -23,6 +23,11 @@
                     "darker": {
                         "value": "#121725"
                     }
+                },
+                "gray": {
+                    "lighter": {
+                        "value": "#C2CBE5"
+                    }
                 }
             },
             "accent": {

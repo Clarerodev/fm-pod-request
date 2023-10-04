@@ -1,0 +1,65 @@
+@use '@fem-sample/tokens/dist/scss/tokens' as *;
+@use '@fem-sample/tokens/dist/scss/mixins' as *;
+.main {
+    &__content--title {
+        @extend %fem-font-heading-500;
+        color: var(--fem-color-text-body-secondary);
+        margin-bottom: $fem-space-offset-500;
+        text-transform: uppercase;
+
+        &__accent {
+            color: var(--fem-color-text-body-primary);
+        }
+
+        & {
+            @media screen and (min-width: $fem-breakpoint-sm) {
+                font-size: $fem-font-heading-600-size;
+                line-height: $fem-font-heading-600-height;
+            }
+            @media screen and (min-width: $fem-breakpoint-md) {
+                font-size: $fem-font-heading-700-size;
+                line-height: $fem-font-heading-700-height;
+            }
+        }
+    }
+    &__content--description {
+        @extend %fem-font-body-100;
+        
+        margin-bottom: ($fem-space-offset-200 + $fem-space-offset-700);
+        color: var(--fem-color-text-body-primary);
+
+        @media screen and (min-width: $fem-breakpoint-sm) {
+            font-size: $fem-font-body-300-size;
+            line-height: $fem-font-body-300-height;
+            max-width: 71.08%;
+        }
+        @media screen and (min-width: $fem-breakpoint-md) {
+            width: 61.55%;
+        }
+    }
+    &__footer {
+        display: block;
+        @media screen and (min-width: ($fem-breakpoint-sm)) {
+            display: flex;
+        }
+    }
+    & {
+        padding: 0 ($fem-space-offset-400 * 3);
+        color: var(--fem-color-text-body-primary);
+
+        @media screen and (min-width: $fem-breakpoint-sm) {
+            background-color: var(--fem-color-background-page-primary);
+            text-align: left;
+            width: 82.68%;
+
+            padding-left: 0;
+            padding-right: $fem-space-offset-500;
+            padding-top: ($fem-space-offset-700 * 2) + ($fem-space-offset-500 + $fem-space-offset-400) + ($fem-space-offset-400 - 0.187);
+            margin-left: $fem-space-offset-700 + $fem-space-offset-400 - $fem-space-offset-100;
+        }
+        @media screen and (min-width: $fem-breakpoint-md) {
+            margin-left: ($fem-space-offset-700 * 5) + ($fem-space-offset-100 + $fem-space-offset-200);
+            width: 50.21%;
+        }
+    }
+}

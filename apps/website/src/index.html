@@ -8,16 +8,15 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@100;300;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/styles/index.scss" />
-
   <script defer="defer" type="module" src="./index.ts"></script>
-
   <title>Pod request access landing page | Frontend Mentor</title>
 </head>
 
 <body>
   <header class="header">
+    <h1 class="sr-only">Pod request access landing page</h1>
     <img class="header__logo" src="./assets/icons/logo.svg" alt="pod logo">
     <picture class="header__picture">
       <source srcset="./assets/images/desktop/image-host.jpg" media="(min-width: 1440px)">
@@ -26,7 +25,39 @@
     </picture>
   </header>
   <main class="main">
+    <section class="main__content">
+      <h2 class="main__content--title">
+        Publish your podcasts 
+        <span class="main__content--title__accent">everywhere.</span>
+      </h2>
+      <p class="main__content--description">
+        Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, Apple Podcasts, Google
+        Podcasts, Pocket Casts and more!
+      </p>
+    </section>
+    <section class="main__footer">
+      <div class="main__footer--sponsors">
+        <h3 class="sr-only">Sponsors</h3>
+        <ul class="sponsor__list">
+          <li class="sponsor__list--item">
+            <img class="sponsor__list--ico sponsor__spotify" alt="Spotify logo" src="./assets/icons/spotify.svg">
+          </li>
+          <li class="sponsor__list--item">
+            <img class="sponsor__list--ico sponsor__apple" alt="Apple podcast logo" src="./assets/icons/apple-podcast.svg">
+          </li>
+          <li class="sponsor__list--item">
+            <img class="sponsor__list--ico sponsor__google" alt="Google podcast logo"
+              src="./assets/icons/google-podcasts.svg">
+          </li>
+          <li class="sponsor__list--item">
+            <img class="sponsor__list--ico sponsor__pocket" alt="Pocket casts logo" src="./assets/icons/pocket-casts.svg">
+          </li>
+        </ul>
+      </div>
+      <div class="main__footer--request-access">
+        <h3 class="sr-only">Request access by email</h3>
+      </div>
+    </section>
   </main>
 </body>
-
 </html>

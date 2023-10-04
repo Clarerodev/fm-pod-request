@@ -22,7 +22,7 @@
                     "value": "18"
                 },
                 "500": {
-                    "value": "27"
+                    "value": "26"
                 },
                 "600": {
                     "value": "48"
@@ -32,8 +32,14 @@
                 }
             },
             "weight": {
+                "light": {
+                    "value": "100"
+                },
                 "normal": {
-                    "value": "400"
+                    "value": "300"
+                },
+                "strong": {
+                    "value": "700"
                 }
             },
             "style": {

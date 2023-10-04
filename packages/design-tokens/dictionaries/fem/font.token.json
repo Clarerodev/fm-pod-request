@@ -1,7 +1,7 @@
 {
     "font": {
         "heading": {
-            "100": {
+            "500": {
                 "family": {
                     "property": "font-family",
                     "value": "{femConfig.font.family.sans.chivo.value}",
@@ -9,21 +9,21 @@
                 },
                 "weight": {
                     "property": "font-weight",
-                    "value": "{femConfig.font.weight.normal.value}",
+                    "value": "{femConfig.font.weight.light.value}",
                     "mixin": true
                 },
-                "lineHeight": {
+                "height": {
                     "property": "line-height",
                     "value": "{femConfig.font.lineHeight.300.value}",
                     "mixin": true
                 },
                 "size": {
                     "property": "font-size",
-                    "value": "{femConfig.font.size.300.value}",
+                    "value": "{femConfig.font.size.500.value}",
                     "mixin": true
                 }
             },
-            "200": {
+            "600": { 
                 "family": {
                     "property": "font-family",
                     "value": "{femConfig.font.family.sans.chivo.value}",
@@ -31,21 +31,21 @@
                 },
                 "weight": {
                     "property": "font-weight",
-                    "value": "{femConfig.font.weight.normal.value}",
+                    "value": "{femConfig.font.weight.light.value}",
                     "mixin": true
                 },
-                "lineHeight": {
+                "height": {
                     "property": "line-height",
                     "value": "{femConfig.font.lineHeight.400.value}",
                     "mixin": true
                 },
                 "size": {
                     "property": "font-size",
-                    "value": "{femConfig.font.size.400.value}",
+                    "value": "{femConfig.font.size.600.value}",
                     "mixin": true
                 }
             },
-            "300": {
+            "700": {
                 "family": {
                     "property": "font-family",
                     "value": "{femConfig.font.family.sans.chivo.value}",
@@ -53,17 +53,17 @@
                 },
                 "weight": {
                     "property": "font-weight",
-                    "value": "{femConfig.font.weight.normal.value}",
+                    "value": "{femConfig.font.weight.light.value}",
                     "mixin": true
                 },
-                "lineHeight": {
+                "height": {
                     "property": "line-height",
                     "value": "{femConfig.font.lineHeight.500.value}",
                     "mixin": true
                 },
                 "size": {
                     "property": "font-size",
-                    "value": "{femConfig.font.size.500.value}",
+                    "value": "{femConfig.font.size.700.value}",
                     "mixin": true
                 }
             }
@@ -77,10 +77,10 @@
                 },
                 "weight": {
                     "property": "font-weight",
-                    "value": "{femConfig.font.weight.normal.value}",
+                    "value": "{femConfig.font.weight.light.value}",
                     "mixin": true
                 },
-                "lineHeight": {
+                "height": {
                     "property": "line-height",
                     "value": "{femConfig.font.lineHeight.200.value}",
                     "mixin": true
@@ -99,10 +99,10 @@
                 },
                 "weight": {
                     "property": "font-weight",
-                    "value": "{femConfig.font.weight.normal.value}",
+                    "value": "{femConfig.font.weight.light.value}",
                     "mixin": true
                 },
-                "lineHeight": {
+                "height": {
                     "property": "line-height",
                     "value": "{femConfig.font.lineHeight.100.value}",
                     "mixin": true
@@ -121,10 +121,10 @@
                 },
                 "weight": {
                     "property": "font-weight",
-                    "value": "{femConfig.font.weight.normal.value}",
+                    "value": "{femConfig.font.weight.light.value}",
                     "mixin": true
                 },
-                "lineHeight": {
+                "height": {
                     "property": "line-height",
                     "value": "{femConfig.font.lineHeight.200.value}",
                     "mixin": true
