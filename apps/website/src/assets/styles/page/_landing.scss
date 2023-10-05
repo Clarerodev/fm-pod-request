@@ -59,9 +59,13 @@
     &__footer--request-access {
         &__helper-message {
             @extend %fem-font-body-100;
+            display: block;
             order: 2;
             margin-left: $fem-space-offset-700;
             color: var(--fem-color-text-input-secondary);
+            @media screen and (min-width: ($fem-breakpoint-sm)) {
+                height: $fem-font-body-100-height;
+            }
         }
         &__group {
             .input__email {
@@ -95,16 +99,12 @@
                 @media screen and (min-width: ($fem-breakpoint-sm)) {
                     display: block;
                     order: 1;
-                    width: 67.24%;
+                    width: 60.55%;
                     position: relative;
                     margin-bottom: $fem-space-offset-700 + ($fem-space-offset-100*10) - ($fem-space-offset-100 * 3);
                 }
             }
         }
-        &__group--action {
-
-        }
-        
         & {
             text-align: left;
             @media screen and (min-width: ($fem-breakpoint-sm)) {

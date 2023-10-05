@@ -248,6 +248,96 @@
                     "mixin": true
                 },
                 "alpha": "0.9"
+            },
+            "100-strong": {
+                "family": {
+                    "property": "font-family",
+                    "value": "{femConfig.font.family.sans.chivo.value}",
+                    "mixin": true
+                },
+                "weight": {
+                    "property": "font-weight",
+                    "value": "{femConfig.font.weight.strong.value}",
+                    "mixin": true
+                },
+                "height": {
+                    "property": "line-height",
+                    "value": "{femConfig.font.lineHeight.100.value}",
+                    "mixin": true
+                },
+                "size": {
+                    "property": "font-size",
+                    "value": "{femConfig.font.size.100.value}",
+                    "mixin": true
+                }
+            },
+            "200-strong": {
+                "family": {
+                    "property": "font-family",
+                    "value": "{femConfig.font.family.sans.chivo.value}",
+                    "mixin": true
+                },
+                "weight": {
+                    "property": "font-weight",
+                    "value": "{femConfig.font.weight.strong.value}",
+                    "mixin": true
+                },
+                "height": {
+                    "property": "line-height",
+                    "value": "{femConfig.font.lineHeight.200.value}",
+                    "mixin": true
+                },
+                "size": {
+                    "property": "font-size",
+                    "value": "{femConfig.font.size.200.value}",
+                    "mixin": true
+                }
+            },
+            "300-strong": {
+                "family": {
+                    "property": "font-family",
+                    "value": "{femConfig.font.family.sans.chivo.value}",
+                    "mixin": true
+                },
+                "weight": {
+                    "property": "font-weight",
+                    "value": "{femConfig.font.weight.strong.value}",
+                    "mixin": true
+                },
+                "height": {
+                    "property": "line-height",
+                    "value": "{femConfig.font.lineHeight.100.value}",
+                    "mixin": true
+                },
+                "size": {
+                    "property": "font-size",
+                    "value": "{femConfig.font.size.300.value}",
+                    "mixin": true
+                },
+                "alpha": "0.9"
+            },
+            "400-strong": {
+                "family": {
+                    "property": "font-family",
+                    "value": "{femConfig.font.family.sans.chivo.value}",
+                    "mixin": true
+                },
+                "weight": {
+                    "property": "font-weight",
+                    "value": "{femConfig.font.weight.strong.value}",
+                    "mixin": true
+                },
+                "height": {
+                    "property": "line-height",
+                    "value": "{femConfig.font.lineHeight.200.value}",
+                    "mixin": true
+                },
+                "size": {
+                    "property": "font-size",
+                    "value": "{femConfig.font.size.400.value}",
+                    "mixin": true
+                },
+                "alpha": "0.9"
             }
         }
     }

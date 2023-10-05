@@ -44,7 +44,7 @@
         @media screen and (min-width: $fem-breakpoint-md) {
             margin-top: ($fem-space-offset-700 * 3) + ($fem-space-offset-200 + $fem-space-offset-300) ;
             margin-left: ($fem-space-offset-700 * 5) + ($fem-space-offset-100 + $fem-space-offset-200);
-            margin-bottom: ($fem-space-offset-700 * 3) + ($fem-space-offset-300 * 2) - $fem-space-offset-100;
+            margin-bottom: ($fem-space-offset-700 * 3) + ($fem-space-offset-300);
         }
     }
 }
