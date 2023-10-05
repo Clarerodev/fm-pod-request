@@ -2,7 +2,7 @@
 @use '@fem-sample/tokens/dist/scss/mixins' as *;
 
 .button__primary {
-    @extend %fem-font-body-200-normal;
+    @extend %fem-font-body-200-strong;
     background-color: var(--fem-color-background-button-primary);
     padding: $fem-space-offset-400 + $fem-space-offset-100;
     border-radius: $fem-size-border-100;

@@ -95,16 +95,12 @@
                 @media screen and (min-width: ($fem-breakpoint-sm)) {
                     display: block;
                     order: 1;
-                    width: 67.24%;
+                    width: 60.55%;
                     position: relative;
                     margin-bottom: $fem-space-offset-700 + ($fem-space-offset-100*10) - ($fem-space-offset-100 * 3);
                 }
             }
         }
-        &__group--action {
-
-        }
-        
         & {
             text-align: left;
             @media screen and (min-width: ($fem-breakpoint-sm)) {

@@ -26,7 +26,7 @@
 
 ## **Preview**
 <div align='center'>
-  <a href="https://clarerodev.github.io/fm-pod-request/" target="_blank">Demo Live</a>
+  <a href="https://fm-pod-request.vercel.app/" target="_blank">Demo Live</a>
 </div>
 <br />
 
