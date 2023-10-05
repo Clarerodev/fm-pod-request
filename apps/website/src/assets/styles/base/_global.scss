@@ -1,0 +1,13 @@
+@use '@fem-sample/tokens/dist/scss/mixins' as *;
+@use '@fem-sample/tokens/dist/scss/tokens' as *;
+
+body {
+    background-color: var(--fem-color-background-page-primary);
+    text-align: center;
+}
+.sr-only {
+    font-size: 0;
+}
+.hidden {
+    visibility: 0;
+}

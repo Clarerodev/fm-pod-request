@@ -1,0 +1,54 @@
+@use '@fem-sample/tokens/dist/scss/mixins' as *;
+@use '@fem-sample/tokens/dist/scss/tokens' as *;
+.sponsor {
+    &__list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: $fem-space-offset-500;
+        opacity: 0.5;
+        
+        @media screen and (min-width: ($fem-breakpoint-xs)) {
+            justify-content: space-around;
+        }
+
+        @media screen and (min-width: ($fem-breakpoint-sm)) {
+            justify-content: left;
+            gap: $fem-space-offset-700;
+        }
+
+        @media screen and (min-width: ($fem-breakpoint-lg)) {
+            gap: $fem-space-offset-700;
+        }
+    }
+    &__list--item {
+        margin-bottom: $fem-space-offset-500;
+        display: flex;
+        align-items: center;
+        @media screen and (min-width: ($fem-breakpoint-xs)) {
+            height: ($fem-space-offset-500 + $fem-space-offset-100);
+            margin-bottom: 0;
+        }
+
+        @media screen and (min-width: ($fem-breakpoint-sm)) {
+            height: ($fem-size-height-icon-400 + $fem-size-height-icon-100);
+        }
+    }
+    &__list--ico {
+        height: inherit;
+    }
+    &__google {
+        @media screen and (min-width: ($fem-breakpoint-xs)) {
+            height: $fem-size-height-icon-200;
+        }
+
+        @media screen and (min-width: ($fem-breakpoint-sm)) {
+            height: ($fem-size-height-icon-300 + $fem-size-height-icon-100);
+        }
+    }
+    &__pocket{
+        @media screen and (min-width: ($fem-breakpoint-sm)) {
+            height: $fem-size-height-icon-400;
+        }
+    }
+}

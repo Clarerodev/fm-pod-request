@@ -1,0 +1,43 @@
+{
+   "femConfig": {
+        "color": {
+            "primary": {
+                "green": {
+                    "lighter": {
+                        "value": "#B3FFE2"
+                    },
+                    "light": {
+                        "value": "#54E6AF"
+                    }
+                },
+                "blue": {
+                    "lighter": {
+                        "value": "#25293A"
+                    },
+                    "light": {
+                        "value": "#5A668A"
+                    },
+                    "dark": {
+                        "value": "#2C344B"
+                    },
+                    "darker": {
+                        "value": "#121725"
+                    }
+                },
+                "gray": {
+                    "lighter": {
+                        "value": "#C2CBE5"
+                    }
+                }
+            },
+            "accent": {
+                "red": {
+                    "value": "#FB3E3E"
+                }
+            },
+            "neutral": {
+                "value": "#fff"
+            }
+        }
+   }
+}

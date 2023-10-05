@@ -13,7 +13,7 @@
 <div align="center">
   <!-- Status -->
   <a href="#">
-    <img src="https://img.shields.io/badge/Status-In_Progress-yellow" alt="Status In progress">
+    <img src="https://img.shields.io/badge/Status-Done-green" alt="Status Done">
   </a>
 
   <!-- Difficulty -->
@@ -46,8 +46,6 @@ Your users should be able to:
 
 ## **Built With**
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?logo=html5&logoColor=white)   
-![SASS](https://img.shields.io/badge/sass-%231572B6.svg?logo=css3&logoColor=white) 
-
-<br>
-
-
+![SASS](https://img.shields.io/badge/sass-pink.svg?logo=SASS&logoColor=white&color=pink)<br>
+![TypeScript](https://img.shields.io/badge/TypeScript-yellow.svg?logo=typescript&logoColor=white&color=blue)<br>
+![Nx](https://img.shields.io/badge/Nx-blue.svg?logo=nX&logoColor=white&color=darkblue)
