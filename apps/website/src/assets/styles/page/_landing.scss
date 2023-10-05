@@ -57,9 +57,15 @@
         }
     }
     &__footer--request-access {
+        &__helper-message {
+            @extend %fem-font-body-100;
+            order: 2;
+            margin-left: $fem-space-offset-700;
+            color: var(--fem-color-text-input-secondary);
+        }
         &__group {
             .input__email {
-                margin-bottom: $fem-space-offset-500;
+                order: 1;
                 @media screen and (min-width: ($fem-breakpoint-sm)) {
                 margin-bottom: 0;
                    padding-top: $fem-space-offset-400 + $fem-space-offset-300 + $fem-space-offset-200;
@@ -68,36 +74,41 @@
                 }
             }
             .button__primary {
+                order: 3;
+                margin-top: $fem-space-offset-500;
                 @media screen and (min-width: ($fem-breakpoint-sm)) {
                     position: absolute;
                     right: $fem-space-offset-100 + $fem-space-offset-300;
                     top: $fem-space-offset-100 + $fem-space-offset-300;
                     width: ($fem-space-offset-700 * 5) + $fem-space-offset-200;
+                    margin-top: 0;
                 }
             }
-
+            
             & {
-                
+                display: flex;
+                flex-direction: column;
                 > * {
                     width: 100%;
                 }
 
                 @media screen and (min-width: ($fem-breakpoint-sm)) {
+                    display: block;
                     order: 1;
                     width: 67.24%;
                     position: relative;
-                    margin-bottom: $fem-space-offset-100 + $fem-space-offset-300;
-                }
-                @media screen and (min-width: ($fem-breakpoint-sm)) {
-                    margin-bottom: 0;
+                    margin-bottom: $fem-space-offset-700 + ($fem-space-offset-100*10) - ($fem-space-offset-100 * 3);
                 }
             }
         }
+        &__group--action {
+
+        }
         
         & {
+            text-align: left;
             @media screen and (min-width: ($fem-breakpoint-sm)) {
                 order: 1;
-                margin-bottom: $fem-space-offset-700*2;
             }
         }
     }
@@ -121,7 +132,7 @@
         position: relative;
         padding: 0 ($fem-space-offset-400 * 3);
         color: var(--fem-color-text-body-primary);
-        margin-bottom: $fem-space-offset-500;
+        margin-bottom: $fem-space-offset-400;
         @media screen and (min-width: $fem-breakpoint-sm) {
             background-color: var(--fem-color-background-page-primary);
             text-align: left;

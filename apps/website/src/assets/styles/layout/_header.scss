@@ -32,7 +32,7 @@
     }
     & {
         margin-top: ($fem-space-offset-700 * 2);
-        margin-bottom: ($fem-space-offset-600 * 2) + ($fem-space-offset-400 + $fem-space-offset-100);
+        margin-bottom: ($fem-space-offset-600 * 2);
 
         @media screen and (min-width: $fem-breakpoint-sm) {
             text-align: left;

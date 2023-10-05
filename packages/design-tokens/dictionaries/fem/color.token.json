@@ -30,6 +30,10 @@
                 "primary": {
                     "value": "{femConfig.color.neutral.value}",
                     "opacity": "0.5"
+                },
+                "secondary": {
+                    "value": "{femConfig.color.accent.red}",
+                    "opacity": "0.5"
                 }
             },
             "placeholder": {
