@@ -1,0 +1,17 @@
+@use '@fem-sample/tokens/dist/scss/tokens' as *;
+@use '../utils/mixins';
+
+.footer::before {
+    @extend %mix-bckg-dots;
+    display: none;
+
+    @media screen and (min-width: ($fem-breakpoint-sm)) {
+        display: block;
+        left: $fem-space-offset-700 - $fem-space-offset-200;
+        margin-top: ($fem-space-offset-700 * 4);
+    }
+
+    @media screen and (min-width: ($fem-breakpoint-md)) {
+        display: none;
+    }
+}

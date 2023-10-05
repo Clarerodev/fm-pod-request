@@ -1,22 +1,32 @@
 {
-  "name": "pod-request-access-landing-page",
-  "version": "1.0.0",
-  "description": "<div align=\"center\">   <img src=\"https://www.frontendmentor.io/static/images/logo-mobile.svg\" alt=\"frontendmentor\" width=\"80\">   <br />   <h2 align=\"center\">    <a href=\"https://www.frontendmentor.io/challenges/pod-request-access-landing-page-eyTmdkLSG\"  target=\"_blank\">         Pod request access landing page - Frontend Mentor Challenge     </a>   </h2> </div> <br />",
-  "main": "index.js",
+  "name": "fem-sample",
+  "version": "0.0.0",
+  "license": "MIT",
   "scripts": {
-    "start": "vite",
-    "build": "vite build",
-    "prebuild": "rimraf dist",
-    "preview": "vite preview",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "nx run-many --target=build",
+    "commit": "cz",
+    "pre-commit": "lint-staged",
+    "prepare": "husky install",
+    "start": "nx run-many --target=start"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "private": true,
   "devDependencies": {
-    "autoprefixer": "^10.4.15",
-    "rimraf": "^5.0.1",
-    "sass": "^1.66.1",
-    "vite": "^4.4.9"
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "nx": "^16.7.4",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

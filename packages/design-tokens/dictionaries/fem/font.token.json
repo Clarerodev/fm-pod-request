@@ -1,0 +1,254 @@
+{
+    "font": {
+        "heading": {
+            "500": {
+                "family": {
+                    "property": "font-family",
+                    "value": "{femConfig.font.family.sans.chivo.value}",
+                    "mixin": true
+                },
+                "weight": {
+                    "property": "font-weight",
+                    "value": "{femConfig.font.weight.normal.value}",
+                    "mixin": true
+                },
+                "height": {
+                    "property": "line-height",
+                    "value": "{femConfig.font.lineHeight.300.value}",
+                    "mixin": true
+                },
+                "size": {
+                    "property": "font-size",
+                    "value": "{femConfig.font.size.500.value}",
+                    "mixin": true
+                }
+            },
+            "600": { 
+                "family": {
+                    "property": "font-family",
+                    "value": "{femConfig.font.family.sans.chivo.value}",
+                    "mixin": true
+                },
+                "weight": {
+                    "property": "font-weight",
+                    "value": "{femConfig.font.weight.light.value}",
+                    "mixin": true
+                },
+                "height": {
+                    "property": "line-height",
+                    "value": "{femConfig.font.lineHeight.400.value}",
+                    "mixin": true
+                },
+                "size": {
+                    "property": "font-size",
+                    "value": "{femConfig.font.size.600.value}",
+                    "mixin": true
+                }
+            },
+            "700": {
+                "family": {
+                    "property": "font-family",
+                    "value": "{femConfig.font.family.sans.chivo.value}",
+                    "mixin": true
+                },
+                "weight": {
+                    "property": "font-weight",
+                    "value": "{femConfig.font.weight.light.value}",
+                    "mixin": true
+                },
+                "height": {
+                    "property": "line-height",
+                    "value": "{femConfig.font.lineHeight.500.value}",
+                    "mixin": true
+                },
+                "size": {
+                    "property": "font-size",
+                    "value": "{femConfig.font.size.700.value}",
+                    "mixin": true
+                }
+            }
+        },
+        "body": {
+            "100": {
+                "family": {
+                    "property": "font-family",
+                    "value": "{femConfig.font.family.sans.chivo.value}",
+                    "mixin": true
+                },
+                "weight": {
+                    "property": "font-weight",
+                    "value": "{femConfig.font.weight.light.value}",
+                    "mixin": true
+                },
+                "height": {
+                    "property": "line-height",
+                    "value": "{femConfig.font.lineHeight.100.value}",
+                    "mixin": true
+                },
+                "size": {
+                    "property": "font-size",
+                    "value": "{femConfig.font.size.100.value}",
+                    "mixin": true
+                }
+            },
+            "200": {
+                "family": {
+                    "property": "font-family",
+                    "value": "{femConfig.font.family.sans.chivo.value}",
+                    "mixin": true
+                },
+                "weight": {
+                    "property": "font-weight",
+                    "value": "{femConfig.font.weight.light.value}",
+                    "mixin": true
+                },
+                "height": {
+                    "property": "line-height",
+                    "value": "{femConfig.font.lineHeight.200.value}",
+                    "mixin": true
+                },
+                "size": {
+                    "property": "font-size",
+                    "value": "{femConfig.font.size.200.value}",
+                    "mixin": true
+                }
+            },
+            "300": {
+                "family": {
+                    "property": "font-family",
+                    "value": "{femConfig.font.family.sans.chivo.value}",
+                    "mixin": true
+                },
+                "weight": {
+                    "property": "font-weight",
+                    "value": "{femConfig.font.weight.light.value}",
+                    "mixin": true
+                },
+                "height": {
+                    "property": "line-height",
+                    "value": "{femConfig.font.lineHeight.100.value}",
+                    "mixin": true
+                },
+                "size": {
+                    "property": "font-size",
+                    "value": "{femConfig.font.size.300.value}",
+                    "mixin": true
+                },
+                "alpha": "0.9"
+            },
+            "400": {
+                "family": {
+                    "property": "font-family",
+                    "value": "{femConfig.font.family.sans.chivo.value}",
+                    "mixin": true
+                },
+                "weight": {
+                    "property": "font-weight",
+                    "value": "{femConfig.font.weight.light.value}",
+                    "mixin": true
+                },
+                "height": {
+                    "property": "line-height",
+                    "value": "{femConfig.font.lineHeight.200.value}",
+                    "mixin": true
+                },
+                "size": {
+                    "property": "font-size",
+                    "value": "{femConfig.font.size.400.value}",
+                    "mixin": true
+                },
+                "alpha": "0.9"
+            },
+            "100-normal": {
+                "family": {
+                    "property": "font-family",
+                    "value": "{femConfig.font.family.sans.chivo.value}",
+                    "mixin": true
+                },
+                "weight": {
+                    "property": "font-weight",
+                    "value": "{femConfig.font.weight.normal.value}",
+                    "mixin": true
+                },
+                "height": {
+                    "property": "line-height",
+                    "value": "{femConfig.font.lineHeight.100.value}",
+                    "mixin": true
+                },
+                "size": {
+                    "property": "font-size",
+                    "value": "{femConfig.font.size.100.value}",
+                    "mixin": true
+                }
+            },
+            "200-normal": {
+                "family": {
+                    "property": "font-family",
+                    "value": "{femConfig.font.family.sans.chivo.value}",
+                    "mixin": true
+                },
+                "weight": {
+                    "property": "font-weight",
+                    "value": "{femConfig.font.weight.normal.value}",
+                    "mixin": true
+                },
+                "height": {
+                    "property": "line-height",
+                    "value": "{femConfig.font.lineHeight.200.value}",
+                    "mixin": true
+                },
+                "size": {
+                    "property": "font-size",
+                    "value": "{femConfig.font.size.200.value}",
+                    "mixin": true
+                }
+            },
+            "300-normal": {
+                "family": {
+                    "property": "font-family",
+                    "value": "{femConfig.font.family.sans.chivo.value}",
+                    "mixin": true
+                },
+                "weight": {
+                    "property": "font-weight",
+                    "value": "{femConfig.font.weight.normal.value}",
+                    "mixin": true
+                },
+                "height": {
+                    "property": "line-height",
+                    "value": "{femConfig.font.lineHeight.100.value}",
+                    "mixin": true
+                },
+                "size": {
+                    "property": "font-size",
+                    "value": "{femConfig.font.size.300.value}",
+                    "mixin": true
+                },
+                "alpha": "0.9"
+            },
+            "400-normal": {
+                "family": {
+                    "property": "font-family",
+                    "value": "{femConfig.font.family.sans.chivo.value}",
+                    "mixin": true
+                },
+                "weight": {
+                    "property": "font-weight",
+                    "value": "{femConfig.font.weight.normal.value}",
+                    "mixin": true
+                },
+                "height": {
+                    "property": "line-height",
+                    "value": "{femConfig.font.lineHeight.200.value}",
+                    "mixin": true
+                },
+                "size": {
+                    "property": "font-size",
+                    "value": "{femConfig.font.size.400.value}",
+                    "mixin": true
+                },
+                "alpha": "0.9"
+            }
+        }
+    }
+}

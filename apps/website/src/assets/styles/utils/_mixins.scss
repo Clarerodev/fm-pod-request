@@ -1,0 +1,19 @@
+@use '@fem-sample/tokens/dist/scss/tokens' as *;
+
+@mixin mix-bckg-dots() {
+    display: block;
+    position: absolute;
+    background-image: url("/assets/icons/bg-pattern-dots.svg");
+    height: ($fem-space-offset-700 * 3) + $fem-space-offset-400;
+    width: ($fem-space-offset-700 * 7) + $fem-space-offset-400;
+    content: "";
+}
+
+%mix-bckg-dots {
+    display: block;
+    position: absolute;
+    background-image: url("/assets/icons/bg-pattern-dots.svg");
+    height: ($fem-space-offset-700 * 3) + $fem-space-offset-400;
+    width: ($fem-space-offset-700 * 7) + $fem-space-offset-400;
+    content: "";
+}

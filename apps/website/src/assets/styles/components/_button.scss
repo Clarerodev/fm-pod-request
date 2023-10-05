@@ -1,0 +1,15 @@
+@use '@fem-sample/tokens/dist/scss/tokens' as *;
+@use '@fem-sample/tokens/dist/scss/mixins' as *;
+
+.button__primary {
+    @extend %fem-font-body-200-normal;
+    background-color: var(--fem-color-background-button-primary);
+    padding: $fem-space-offset-400 + $fem-space-offset-100;
+    border-radius: $fem-size-border-100;
+    color: var(--fem-color-text-button-primary);
+    cursor: pointer;
+}
+
+.button__primary:hover {
+    background-color: var(--fem-color-background-button-secondary);
+}
